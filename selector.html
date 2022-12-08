@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        margin: 0%;
+
+        padding: 0%;
+
+        background-color: burlywood;
+      }
+
+      .navbar {
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+        position: sticky;
+
+        top: 0;
+
+        cursor: pointer;
+
+        gap: 20px;
+
+        background-color: cadetblue;
+      }
+
+      .box {
+        width: 200px;
+
+        height: 100px;
+
+        align-items: center;
+
+        justify-content: center;
+      }
+      img {
+        height: 100%;
+      }
+
+      .logo {
+        width: 180px;
+
+        border-radius: 50px;
+
+        align-items: center;
+
+        overflow: hidden;
+
+        background: linear-gradient(blue, lightblue) no-repeat center center
+          fixed;
+
+        display: flex;
+
+        justify-content: center;
+
+        box-sizing: border-box;
+
+        border-radius: 25%;
+
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+
+        transform: translateY(0px);
+
+        animation: float 6s ease-in-out infinite;
+      }
+
+      @keyframes float {
+        0% {
+          box-shadow: 0 5px 15px 0px rgba(red, green, blue, alpha);
+
+          transform: translateY(0px);
+        }
+
+        50% {
+          box-shadow: 0 25px 15px 0px rgba(red, green, blue, alpha);
+
+          transform: translateY(20px);
+        }
+
+        100% {
+          box-shadow: 0 5px 15px 0px rgba(red, green, blue, alpha);
+
+          transform: translateY(0px);
+        }
+      }
+
+      .logo img {
+        width: 100%;
+
+        height: auto;
+      }
+
+      .box1 {
+        margin-left: 50px;
+
+        margin-right: 50px;
+      }
+
+      .btn {
+        padding: 8px 20px;
+
+        margin: 7px 0;
+
+        border: 2px solid black;
+
+        border-radius: 8px;
+
+        background: none;
+
+        color: black;
+
+        cursor: pointer;
+      }
+
+      .btn-sm {
+        padding: 6px 10px;
+
+        vertical-align: middle;
+      }
+
+      .logo1 {
+        height: 50%;
+
+        margin-top: 15%;
+
+        font-size: 20px;
+
+        text-decoration: none;
+        color: #0e172c;
+        transition: 0.2s;
+      }
+
+      .logo1:hover {
+        top: 5px;
+
+        background-color: burlywood;
+
+        border: 1px;
+
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="box box1">
+        <img
+          src="anonymous-2755365__340.jpg"
+          alt="img not found"
+          class="logo"
+        />
+      </div>
+      <div class="box box2">
+        <a href="https://www.facebook.com/"
+          ><i><img src="icons8-facebook-50.png" alt="" class="logo1" /></i
+        ></a>
+      </div>
+      <div class="box box3">
+        <a href="https://www.youtub.com/"></a
+        ><i><img src="youtub logo.png" alt="" class="logo1" /></i>
+      </div>
+      <div class="box box4">
+        <a href="https://www.instagram.com/"></a
+        ><i><img src="instagram logo.png" alt="" class="logo1" /></i>
+      </div>
+      <div class="box box5">
+        <a href="https://www.whatsapp.com/"></a
+        ><i><img src="icons8-whatsapp-50.png" alt="" class="logo1" /></i>
+      </div>
+      <div class="box box6">
+        <a href="https://www.twitter.com/"></a
+        ><i><img src="icons8-twitter-50.png" alt="" class="logo1" /></i>
+      </div>
+      <div class="rightNav">
+        <input type="text" name="search" id="search" />
+
+        <button class="btn btn-sm">Search</button>
+      </div>
+    </nav>
+  </body>
+</html>

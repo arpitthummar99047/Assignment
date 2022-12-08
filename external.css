@@ -1,0 +1,66 @@
+body{
+    background-color:blanchedalmond;
+}
+
+.arpit{
+
+    background-color: darkblue;
+
+    color: aliceblue;
+    
+}
+
+.h1{
+
+    background-color: black;
+
+    color: aliceblue;
+
+    text-align: center;
+
+    margin: 35px;
+
+    padding-left: 35px;
+
+    margin-bottom: 35px;
+}
+.h3{
+
+    margin: 35px ;
+}
+
+.right{
+
+    width: 250px;
+
+    border: 2px solid black;
+
+    border-radius: 26px;
+
+    margin-top: 19px;
+
+    float: right;
+
+    margin-left: 40px;
+}
+
+
+
+.firsthalf{
+
+    color: darkblue;
+
+   margin: 50px;
+
+   text-indent: 35px;
+
+   text-decoration:solid ;
+
+   text-shadow: 5px 2px 5px darkblue;
+
+   text-align: justify;
+   
+   text-justify: inter-word;
+   
+}
+
