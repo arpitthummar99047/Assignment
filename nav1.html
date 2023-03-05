@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0%;
+        padding: 0%;
+      }
+
+      .header {
+        width: 100%;
+        height: auto;
+      }
+
+      .navbar {
+        display: flex;
+        background-color: beige;
+      }
+
+      .logo {
+        width: 20%;
+        height: 10px;
+      }
+
+      .logo a img {
+        width: 200px;
+        height: 100px;
+        margin: 5%;
+        float: right;
+      }
+
+      .navmenu {
+        width: 80%;
+        height: auto;
+      }
+
+      .navmenu ul {
+        display: flex;
+      }
+
+      .navmenu ul li {
+        margin: 2%;
+        float: left;
+        padding: 10px;
+        list-style: none;
+        margin-left: 1.5rem;
+        font-size: 1.3rem;
+      }
+
+      a:link {
+        text-decoration: none;
+      }
+
+      li a {
+        color: #fff;
+        font-size: 14px;
+        text-transform: uppercase;
+        display: inline-block;
+        padding: 10px 0;
+        position: relative;
+      }
+
+      .navmenu li a {
+        color: #444;
+        text-decoration: none;
+        font-weight: 500;
+        transition: color 0.3s ease-in-out;
+      }
+
+      .navmenu a:hover {
+        color: #117964;
+      }
+
+      /*<!--  -->*/
+
+      .navmenu a::before {
+        content: "";
+        display: block;
+        height: 3px;
+        background-color: black;
+        position: absolute;
+        top: 0;
+        width: 0%;
+        transition: all 0.3s ease-in-out;
+      }
+      .navmenu a:hover::before {
+        width: 100%;
+      }
+
+      .navmenu a::after {
+        content: "";
+        display: block;
+        height: 3px;
+        background-color: black;
+        position: absolute;
+        bottom: 0;
+        width: 0%;
+        transition: all 0.3s ease-in-out;
+      }
+      .navmenu a:hover::after {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="navbar">
+        <div class="logo">
+          <a href=""
+            ><img src="8289d421440f4efdac8975817eca26b7.png" alt=""
+          /></a>
+        </div>
+        <div class="navmenu">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Dropdown</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
